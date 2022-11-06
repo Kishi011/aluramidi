@@ -45,6 +45,10 @@
     <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
     
     
+    <!-- os scripts que interajem diretamente com os elementos da página geralmente são
+    colocados ao final do código, logo antes do fechamento da tag body, para não ocorrer
+    problemas na hora da execução do script. Pois o script, se colocado no head, carrega
+    antes do body e, por causa disso, não consegue capturar os elementos com o querySelector -->
     <script src="./scripts/main.js"></script>
 </body>
 </html>
